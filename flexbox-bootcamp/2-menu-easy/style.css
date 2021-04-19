@@ -1,0 +1,25 @@
+nav {
+    height: 3rem;
+    background: #eee;
+    max-width: 800px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: stretch;
+}
+
+nav a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+nav a:hover {
+    background: #666;
+    color: white;
+    flex: 1.2;
+}
+

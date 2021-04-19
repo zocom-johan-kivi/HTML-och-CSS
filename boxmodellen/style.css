@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+main {
+    background: lightpink;
+    padding: 1rem;
+    width: 50%;
+    border: 1rem solid red;
+}
+
+main p {
+    background: lightseagreen;
+}

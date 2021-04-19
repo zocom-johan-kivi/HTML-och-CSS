@@ -1,0 +1,26 @@
+body {
+    background: #eee;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 600px;
+    height: 400px;
+    background: white;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+main section {
+    width: 220px;
+    height: 220px;
+    background: rgb(191, 8, 8);
+    border-radius: 9999rem;
+}
