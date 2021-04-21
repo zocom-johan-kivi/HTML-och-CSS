@@ -98,10 +98,17 @@ section.gallery > article {
     width: 100%;
     background: #fff;
     box-shadow: 0 0 3rem rgba(0,0,0,.2);
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
 }
 
 section.gallery > article img {
     width: 100%;
+}
+
+section.gallery > article .btn {
+    margin-top: auto;
 }
 
 section.gallery > article h3, section.gallery > article p {
@@ -109,6 +116,7 @@ section.gallery > article h3, section.gallery > article p {
     padding: 0.25rem 0.5rem;
 }
 
+/* COMPONENT */
 .btn {
    display: inline-block;
    border: 2px solid #000;
@@ -140,8 +148,10 @@ section.gallery > article h3, section.gallery > article p {
 
 
 footer {
-    height: 200px;
-    background-color: #555;
+    height: 300px;
+    background-color: #222;
+    background-image: url('img/footermapbg.png');
+    background-size: cover;
     color: white;
     display: flex;
     gap: 1rem;
