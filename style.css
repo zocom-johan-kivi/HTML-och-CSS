@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 260px;
+    height: 400px;
+    background: white;
+    box-shadow: 0 0 3rem rgba(0,0,0,.2);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+p.suit, h1 {
+    color: rgb(213, 44, 44);
+}
+
+header {
+   align-self: flex-start;
+}
+
+footer {
+    align-self: flex-end;
+    transform: rotateZ(180deg);
+}
+
+h1 {
+    font-size: 5rem;
+}
