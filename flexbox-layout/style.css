@@ -1,0 +1,71 @@
+body {
+    background-color: #eee;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    background-color: #222;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+} 
+
+header h1 {
+    margin: 2rem;
+}
+
+nav {
+    background-color: #999;
+    height: 3rem;
+    padding: 0 1rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    transition: all .2s ease;
+}
+
+nav a:hover {
+    color: black;
+    font-weight: 700;
+}
+
+section {
+    display: flex;
+}
+
+section main {
+    flex: 1;
+    background: pink;
+}
+
+section aside {
+    background-color: #ddd;
+    width: 260px;
+    height: 400px;
+}
+
+footer {
+    height: 200px;
+    background-color: #555;
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+
+footer > article {
+    flex: 1;
+    padding: 1rem;
+}
