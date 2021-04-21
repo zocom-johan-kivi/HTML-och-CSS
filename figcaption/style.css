@@ -1,0 +1,13 @@
+article {
+    width: 600px;
+    height: 400px;
+    background: pink;
+}
+
+p {
+
+    width: 400px;
+    transform: translateY(-140%);
+    padding: 1rem;
+    box-sizing: border-box;
+}
