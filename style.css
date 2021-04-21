@@ -50,6 +50,12 @@ footer {
 h1 {
     font-size: 3rem;
     margin: 0;
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main:hover {
