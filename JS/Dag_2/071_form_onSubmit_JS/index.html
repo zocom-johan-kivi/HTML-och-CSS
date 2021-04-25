@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>JavaScript - form Check before submit</title>
+
+
+ 
+</head>
+<body>
+
+
+<!--onsubmit is a feature for html forms that will 
+run a JS function before the submit action happends.
+
+If you put a "return" before the function call, 
+the function needs to return a "true" before the submit happends
+
+ -->
+ 
+ <form name="formName" action="second_page.html" onsubmit="return checkPass()" >
+ 
+ <p> Name: <input type="text" name="fname"></p>
+  
+ <p>Pass: <input type="password"  name="password"></p>
+   
+  <input type="submit" value="Submit">
+</form>
+
+ 
+ 
+ 
+</body>
+
+
+  <script src="login.js"></script>
+
+
+
+</html>
