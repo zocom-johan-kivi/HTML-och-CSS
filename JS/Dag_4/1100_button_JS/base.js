@@ -1,4 +1,4 @@
-function buttonFunc() { 
+function buttonFunc() {
 
 	//document.write("<p> Click!</p>");
 	document.getElementById("buttonDemo").innerHTML = "enter stuff into the html";
@@ -16,13 +16,6 @@ document.getElementById("pwithOnClick").addEventListener("click", function () {
 	document.getElementById("buttonDemo").innerHTML = "anyting can be a \"button\"";
 });
 
-// same as above but its calling a function, rather then having its own one
-/*
-document.getElementById("pwithOnClick").addEventListener("click", aNormalFunction());
-
-function aNormalFunction() {
-	document.getElementById("buttonDemo").innerHTML = "anyting can be a \"button\"";
-}*/
 
 
 // mouseover
