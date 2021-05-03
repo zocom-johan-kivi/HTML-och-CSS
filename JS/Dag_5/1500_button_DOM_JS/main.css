@@ -1,0 +1,18 @@
+button.mainButton{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+div.mainDiv{
+    border-style: dashed;
+   
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.hide{
+	display:none;
+	
+}

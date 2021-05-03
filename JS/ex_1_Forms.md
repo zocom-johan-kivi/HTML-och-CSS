@@ -8,7 +8,7 @@ I övning 1: Formulär och Kontroll,  skall ni skapa ett formulär som korrekt k
 - en input för epost
 - 1 omgång av Checkboxar/kryssrutor
 - 1 datum input
-Ni bör kolla så att eposten är korrekt, (hint onsubmit), samt att alla delar av formuläret är ifyllt.
+- Ni bör kolla så att eposten är korrekt, (hint onsubmit), samt att alla delar av formuläret är ifyllt.
 
 På den andra sidan(ditt ert formulär går) bör ni sen hantera datan som kommer över och skriva ut den i läsbart format i konsolen.
 ## Bonus del

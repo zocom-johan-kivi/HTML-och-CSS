@@ -1,0 +1,7 @@
+.brown {
+    color: brown;
+}
+
+li:last-child {
+    color: red;
+}
