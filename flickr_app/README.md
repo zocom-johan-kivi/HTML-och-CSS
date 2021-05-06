@@ -46,7 +46,7 @@ En adress kan innehålla en eller flera argument och kan bli väldigt lång!
 En hel förfrågan kan se ut såhär:
 
 ```
-https://api.flickr.com/services/rest?method=flickr.photos.search?api_key=abc12378asdashdjsah8sds&text=banana=per_page=20&sort=date-taken-asc&format=json
+https://api.flickr.com/services/rest?method=flickr.photos.search&api_key=abc12378asdashdjsah8sds&text=banana&per_page=20&sort=date-taken-asc&format=json
 ```
 
 ### Flickrs bild URL:er
