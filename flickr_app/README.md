@@ -38,7 +38,7 @@ Flickrs metod **flickr.photos.search** har [många valbara argument](https://www
 
 Det finns ingen standarisering vilka argument som finns vid en API-resurs utan detta är något man måste [läsa sig till i dokumentationen](https://www.flickr.com/services/api/flickr.photos.search.html).
 
-Ett argument som *bör* vara med är ```format=json```då Flickrs API stödjer ett gäng fler andra format.
+Ett argument som *bör* vara med är ```format=json```då Flickrs API stödjer ett gäng fler andra format. Detta gör att du får tillbaka JSON som en callback. Detta blir lite meckigt att jobba med, så lägg även på argumentet ```&nojsoncallback=1```. 
 
 
 En adress kan innehålla en eller flera argument och kan bli väldigt lång!
@@ -46,7 +46,7 @@ En adress kan innehålla en eller flera argument och kan bli väldigt lång!
 En hel förfrågan kan se ut såhär:
 
 ```
-https://api.flickr.com/services/rest?method=flickr.photos.search&api_key=abc12378asdashdjsah8sds&text=banana&per_page=20&sort=date-taken-asc&format=json
+https://api.flickr.com/services/rest?method=flickr.photos.search&api_key=abc12378asdashdjsah8sds&text=banana&per_page=20&sort=date-taken-asc&format=json&nojsoncallback=1
 ```
 
 ### Flickrs bild URL:er
