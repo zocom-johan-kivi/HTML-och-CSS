@@ -79,3 +79,6 @@ För VG ska du nå samtliga G-krav samt:
 - mer funktiolitet utifrån metodens [argument](https://www.flickr.com/services/api/flickr.photos.search.html), ex. *licenstyp*, *antal bilder du får tillbaka*, *tags* eller dyl. 
 - pagnation-funktionalitet där du kan bläddra mellan olika sidor av sökresultaten
 - felhantering där felkoden meddelas användaren
+
+
+# DEADLINE: 2021-05-14, kl 23:59
