@@ -1,0 +1,62 @@
+div {
+    border-style: dashed;
+}
+
+div p {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: rgb(131, 36, 123);
+    }
+
+    div {
+        border-style: double;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    div {
+        border-radius: 25%;
+    }
+}
+
+
+
+
+.ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FF5722;
+
+    animation: bounce 1.5s;
+    animation-direction: alternate;
+    /* animation-timing-function: cubic-bezier(.5,0.05,1,.5);*/
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(100px, 100px, 0);
+    }
+}
+
+
+/*  animate.style */
+/* This only changes this particular animation duration */
+.animate__animated.animate__lightSpeedOutLeft {
+    --animate-duration: 12s;
+}
